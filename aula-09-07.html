@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p id="demo"></p>
+
+<script>
+var day;
+switch (new Date().getDay()) {
+  case 0:
+    day = "Sunday";
+    break;
+  case 1:
+    day = "Monday";
+    break;
+  case 2:
+    day = "Tuesday";
+    break;
+  case 3:
+    day = "Wednesday";
+    break;
+  case 4:
+    day = "Thursday";
+    break;
+  case 5:
+    day = "Friday";
+    break;
+  case  6:
+    day = "Saturday";
+}
+document.getElementById("demo").innerHTML = "Today is " + day;
+
+/*
+Exemplo do professor:
+
+var idade = 26;
+
+switch (idade){
+
+    case (idade < 18): document.write('Você é menor de idade'); break;
+    case (idade > 18 && idade < 25): document.write('Você é um rapaz'); break;
+    case(idade > 25 && idade < 40): document.write('Você está ficando velhinho'); break;
+    default: document.write('Você ja quarentou');
+    
+}
+*/
+
+</script>
+
+</body>
+</html>

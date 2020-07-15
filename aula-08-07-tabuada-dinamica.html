@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabuada</title>
+</head>
+<body>
+    
+    <script>
+        var nome = prompt('Digite seu nome:');
+        alert('Bem vindo a nossa tabuada ' + nome);
+
+        var numero = parseInt(prompt('Digite um número a ser multiplicado:'))
+        var ate = parseInt(prompt('Digite um segundo valor a ser multiplicado: '))
+
+        for(var i = 0; i <= ate; i++){
+            document.write(numero + 'x' + i + '=' + i*numero + '<br>');
+        }
+        
+    
+    </script>
+
+
+</body>
+</html>
